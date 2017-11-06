@@ -1,0 +1,17 @@
+nombre(ginobili).
+nombre(maradona).
+nombre(vilas).
+nombre(monzon).
+nombre(aymar).
+nacimiento(maradona,1960).
+nacimiento(ginobili,1977).
+nacimiento(aymar,1977).
+nacimiento(monzon,1952).
+nacimiento(vilas,1942).
+jugador(ginobili,basquet).
+jugador(maradona,futbol).
+jugador(vilas,tenis).
+jugador(monzon,boxeo).
+jugador(aymar,hockey).
+juegaAl(X,Y,Z) :- nombre(X), nacimiento(X,Y), jugador(X,Z).
+jugadorNacimiento(X,Y) :- nombre(X), nacimiento(X,Y).

@@ -1,0 +1,7 @@
+dividir(20,4,5).
+dividir(72,8,9).
+dividir(100,5,20).
+dividir(81,9,9).
+dividir(63,7,9).
+dividir(144,12,12).
+multiplicar(X,Y,Z) :- dividir(Z,X,Y).
